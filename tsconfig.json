@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "ESNext",
+    "lib": ["esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "baseUrl": "src"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "clean": "rimraf dist/*",
+    "copy-assets": "ts-node tools/copyAssets"
+  },
+  "include": ["src"]
+}
